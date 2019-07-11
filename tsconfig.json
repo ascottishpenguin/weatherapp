@@ -11,6 +11,11 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
+    "noEmitOnError": true,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "out",
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -18,9 +23,11 @@
       "es2018",
       "dom"
     ]
+
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
   }
+
 }
